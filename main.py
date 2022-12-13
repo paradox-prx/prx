@@ -26,32 +26,6 @@ response_sad=['Cheer Up, Bestie. I love you',
           "If I were a hooman, I would've hugged you to death :(((",
           "Don't be sad pls Bestie Everything gonna Fall back into Place <333"]
 
-dares=["Tell your crush you love 'em without telling you love 'em",
-       "Dedicate a song to your crush",
-      "Tell your crush something you've never told him/her",
-      "Tell everyone what you love the most about your crush",
-      'Pretend to date someone here for a day',
-      "Look player of you choice in the eyes and whisper 'I'm coming' five times.",
-      "Kiss someone here three times.",
-      "Pretend the group is clueless and explain how to give good head for everyone.",
-      "Pick one person in the group, and try to convince them to kiss you for 2 minutes. They have to refuse for 2 minutes, and then it's up to them.",
-      "Have phone sex with someone from this server in this server in front of everyone.",
-      "Send a dirty text to your ex.",
-      "Pick one person here to go into a closet or small room with you for 5 minutes.",
-      "Make out with one person in the group for 30 seconds."]
-
-darez=['Pretend to date someone here for a day',
-       "Look player of you choice in the eyes and whisper 'I'm coming' five times.",
-       "Kiss someone here three times.",
-       "Join voice chat and give your most sexual moan",
-      "Pick one person here to go into a closet or small room with you for 5 minutes.",
-      "Imitate a female orgasm on voice chat.",
-      "Make out with one person in the group for 30 seconds.",
-       "Make out with the person with their name first in alphabetical order.",
-       "Announce who you think is the sexiest member here, online or not."
-      ]
-
-
 def get_quote():
   response=requests.get('https://zenquotes.io/api/random')
   data=json.loads(response.text)
