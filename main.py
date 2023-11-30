@@ -240,5 +240,5 @@ async def on_message(message):
 
 
 keep_alive()
-
-client.run(os.environ["7d4797f52db6b151290419f6c7c3c4021feaa34d33eb2ac05e189d7633fcb099"])
+string token=''
+client.run(os.environ[token])
